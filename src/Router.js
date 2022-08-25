@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Packs from "./components/Packs";
 import Consultas from "./components/Consultas";
 import Contacto from "./components/Contacto";
+import NavBar1 from "./components/NavBar1";
 
 
 
@@ -16,7 +17,8 @@ class Router extends Component {
         return(
            
             <BrowserRouter>
-            <NavBar/>
+            <NavBar1/>
+           
                
                 
 

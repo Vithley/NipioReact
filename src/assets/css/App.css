@@ -44,44 +44,10 @@
 
 
 /*Estilos del cuerpo de la pÃ¡gina*/
-.body-menu{
-  background-image: url('../images/nino.png');
-  background-color: rgb(100, 100, 100);
-  background-blend-mode: soft-light;
- 
-  background-attachment: fixed;
-  max-width: 100%;
-  height: 500px;
-  top: 0;
-}
 
-@media only screen and (max-width: 768px) {
-  .body-menu {
-    background-image: url('../images/nino.png');
-    background-color: rgb(100, 100, 100);
-    background-blend-mode: soft-light;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-  }
-}
 
-@media only screen and (max-width: 470px) {
-  .body-menu {
-    background-image: url('../images/nino.png');
-    background-color: rgb(100, 100, 100);
-    background-blend-mode: soft-light;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 50%;
-    height: 50%;
-    top: 0;
-  }
-}
+
+
 
 .consiste {
   max-width: 100%;

@@ -7,8 +7,8 @@ import terapia from '../assets/images/TerapiaEnFamilia.png';
 import juego from '../assets/images/LOGOPEDIA A TRAVÉS DEL JUEGO.png';
 import web from '../assets/images/FOTOS WEB principal.png';
 import 'bootstrap/dist/css/bootstrap.css';
-import Slider from "./Slider";
 import Cards from "./Cards";
+import SliderHome from "./SliderHome";
 
 class Body extends Component {
 
@@ -17,10 +17,7 @@ class Body extends Component {
         return(
         <div>
            
-            <Slider
-                title="NI PÍO_LOGOPEDIA"
-                subtitle="ESPECIALISTAS EN LA COMUNICACIÓN"
-            />
+            <SliderHome/>
         
             <div className="container text-center mt-5">
                 <div className="row">
@@ -46,7 +43,7 @@ class Body extends Component {
             <div class="container index-photo mt-5">
             <div class="row container-galery justify-content-between">
                 <div class=" col-xs-2 col-md-5 col-lg-4 pack ">
-                    <img src={nina} className="img-fluid" alt="niña"/>
+                    <img src={nina} className="img-fluid" alt="niña" width='100%'/>
                     <div className="overlay">
                             <a href="/packs">PACK DE LOGOPEDIA</a>
                         </div>
@@ -67,6 +64,27 @@ class Body extends Component {
 
             </div>
         </div>
+
+        <div className="container text-center mt-5">
+                <div className="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 consiste-logopedia">
+                    <h2>¿En qué consiste la Logopedia Online?</h2>
+                    </div>
+                    <div className="col-md-auto"></div>
+                    <div className="col parr-consiste">
+                    <p className="text-justify">Ni Pío Logopedia está diseñado para ofrecer Servicio de Logopedia Online,
+                        somos conscientes que los peques cuando están en su hogar y en familia,
+                        obtienen mejores resultados, que otros métodos de trabajos individuales. 
+
+                        Nuestro método se basa en la inclusión de la familia como motor de la terapia.
+                        
+                        Tras una entrevista inicial online y recogida de información. Valoramos el tipo
+                        de intervención que más se ajuste a cada peque. Y establecemos un horario de seguimiento
+                        que mejor se adapte a la rutina familiar.</p>
+                    </div>
+                </div>
+                
+            </div>
             
     
             <section className="beneficios">
