@@ -4,7 +4,6 @@ import logo from '../assets/images/logo ni pio  circulo turquesa.png';
 import mujerNina from '../assets/images/mujerNina.png';
 import ninoBeso from '../assets/images/nino-beso.png';
 import SlidersPacks from "./SliderPacks";
-import CardsPacks from "./CardsPacks";
 
 class  Packs extends Component {
 
@@ -29,16 +28,16 @@ class  Packs extends Component {
             
                     </div>
                 </section>
-                <CardsPacks/>
                     
                 <section className="table-packs">
                     <div className="packs">
-                        <div className="pack-titulo">
-                            <img src={logo} alt="logo" width="100px" height="100px"/>
-                            <h4>Pack Premium</h4>
+                        <div className="pack-left">
+                            <div className="pack-titulo">
+                                <img src={logo} alt="logo" />
+                                <h4>Pack Premium</h4>
                             </div>
-                            <div className="image1"><img src={mujerNina} alt="niña" width="45%" height="12%"/></div>
-            
+                            <div className="image1"><img src={mujerNina} alt="niña" /></div>
+
                             <div className="pack-list">
                                 <ul>
                                     <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Estudio del caso +</li>
@@ -48,6 +47,13 @@ class  Packs extends Component {
                                     <li className="list-pack2">15€ (mín. 4)</li>
                                 </ul>
                             </div>
+
+                            <div className="enlace-price">
+                                <a href="packPremium.php">Más información</a>
+                            </div>
+                        </div>
+
+                        <div className="pack-right">
                             <div className="include-text"><p>Incluye:</p></div>
                             <div className="include-list">
                                 <ul>
@@ -65,7 +71,7 @@ class  Packs extends Component {
                                     </li>
                                 </ul>
                             </div>
-                            
+
                             <div className="include-text"><p>Sesiones de seguimiento:</p></div>
                             <div className="include-list">
                                 <ul>
@@ -80,52 +86,50 @@ class  Packs extends Component {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="enlace-price">
-                                <a href="packPremium.php">Más información</a>
-                            </div>
-                            
-                            
                         </div>
-                        
-            
-                        <div className="packs">
-                            <div className="pack-price">
-                                <div className="pack-titulo">
-                                    <img src={logo} alt="niña" width="100px" height="100px"/>
-                                    <h4>Pack Flexible</h4>
-                                </div>
-            
-            
-                                <div className="image1"><img src={ninoBeso} alt="niña" width="45%" height="12%"/></div>
-                                <div className="pack-list">
-                                    <ul>
-                                        <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Estudio del caso +</li>
-                                        <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Plan de Intervención Logopédica</li>
-                                        <li className="list-pack1">60€</li>
-                                        <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Sin seguimiento</li>
-                                    </ul>
-                                </div>
+                    </div>
+
+                    <div className="packs">
+                        <div className="pack-left">
+                            <div className="pack-titulo">
+                                <img src={logo} alt="niña" />
+                                <h4>Pack Flexible</h4>
                             </div>
-                            <div className="espacio"></div>
-            
+
+                            <div className="image1"><img src={ninoBeso} alt="niña" /></div>
+                            <div className="pack-list">
+                                <ul>
+                                    <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Estudio del caso +</li>
+                                    <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Plan de Intervención Logopédica</li>
+                                    <li className="list-pack1">60€</li>
+                                    <li className="list-pack"><ion-icon name="checkmark-outline"></ion-icon>Sin seguimiento</li>
+                                </ul>
+                            </div>
+
+                            <div className="enlace-price">
+                                <a href="packFlexible.php">Más información</a>
+                            </div>
+                        </div>
+
+                        <div className="pack-right">
                             <div className="include-text"><p>Incluye:</p></div>
-                                <div className="include-list">
-                                    <ul>
-                                        <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
-                                            Estudio del caso: Cuestionario inicial y registro fonológico.
-                                        </li>
-                                        <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
-                                            Videoconsulta telefónica de 1 hora para revisar, valorar y evaluar las necesidades del pequeño/a y la familia. 
-                                        </li>
-                                        <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
-                                            Plan de Intervención Logopédica Individualizado.
-                                        </li>
-                                        <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
-                                            Guía con pautas y estrategias para favorecer la comunicación y el lenguaje.
-                                        </li>
-                                    </ul>
-                                </div>
-            
+                            <div className="include-list">
+                                <ul>
+                                    <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
+                                        Estudio del caso: Cuestionario inicial y registro fonológico.
+                                    </li>
+                                    <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
+                                        Videoconsulta telefónica de 1 hora para revisar, valorar y evaluar las necesidades del pequeño/a y la familia. 
+                                    </li>
+                                    <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
+                                        Plan de Intervención Logopédica Individualizado.
+                                    </li>
+                                    <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
+                                        Guía con pautas y estrategias para favorecer la comunicación y el lenguaje.
+                                    </li>
+                                </ul>
+                            </div>
+
                             <div className="include-list">
                                 <ul>
                                     <li className="pack-include"><ion-icon name="checkmark-outline"></ion-icon>
@@ -133,16 +137,10 @@ class  Packs extends Component {
                                     </li>  
                                 </ul>
                             </div>
-                            
-                            <div className="espacio-boton"></div>
-                            
-                            <div className="enlace-price">
-                                <a href="packFlexible.php">Más información</a>
-                            </div>      
-                            
-                        </div> 
-                        
-                    </section>
+                        </div>
+                    </div> 
+                    
+                </section>
                 </main>
         
             

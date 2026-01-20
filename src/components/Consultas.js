@@ -37,10 +37,10 @@ class  Consultas extends Component {
                     <section class="table-packs">
                         <div class="packs">
                             <div class="pack-titulo1">
-                            <img src={logo} alt="logo" width="100px" height="100px"/>
+                            <img src={logo} alt="logo" width="70px" height="70px"/>
                             <h4>Consulta Logopédica</h4>
                             </div>
-                            <div class="image1"><img src={packFlexible} alt="pack" width="45%" height="18%"/></div>
+                            <div class="image1"><img src={packFlexible} alt="pack"/></div>
 
                             <div class="pack-list-consulta">
                                 <ul>
@@ -75,12 +75,12 @@ class  Consultas extends Component {
                         <div class="packs">
                             <div class="pack-price">
                                 <div class="pack-titulo1">
-                                    <img src={logo} alt="logo" width="100px" height="100px"/>
+                                    <img src={logo} alt="logo" width="70px" height="70px"/>
                                     <h4>Consulta de Seguimiento ocasional</h4>
                                 </div>
 
 
-                                <div class="image1"><img src={packFlexible2} alt="pack" width="45%" height="18%"/></div>
+                                <div class="image1"><img src={packFlexible2} alt="pack"/></div>
                                 <div class="pack-list-consulta">
                                     <ul>
                                         <li class="list-pack1">22€</li>
